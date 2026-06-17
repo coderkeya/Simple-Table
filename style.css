@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+  padding: 40px;
+}
+
+.main-panle {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-panle,
+.main-panle td,
+.main-panle th {
+  border: 2px solid black;
+}
+
+.company-info {
+  padding: 24px;
+}
+
+.company-info h1 {
+  font-size: 32px;
+  font-weight: 600px;
+  padding-bottom: 12px;
+}
+.company-info p{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.company-data{
+  width: 50%;
+  padding: 24px;
+}
+
+.company-info pre strong{
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 24px;
+}
+
+.address-header{
+  padding: 24px;
+}
+
+.address-header th{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.address-left{
+  padding: 24px;
+}
+
+.addres-left- h2{
+  font-size: 24px;
+  font-weight: 400px;
+  padding-bottom: 16px;
+}
+
+.address-left- p{
+  font-size: 16px;
+  font-weight: 400px;
+  padding-top: 40px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+.address-right{
+  padding: 24px;
+}
+
+.address-right- p{
+  font-size: 16px;
+  font-weight: 400px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+.table-data{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-data td{
+  border: 2px solid black;
+  padding: 24px 16px;
+}
+
+.table-data th{
+  border: 2px solid black;
+  border-width: 0px 2px 2px 2px;
+  padding: 24px;
+}
+
+.no{
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
+}
+.item{
+  padding: 24px 16px;
+}
+.qty{
+  text-align: center;
+}
+
+.rate{
+  text-align: center;
+}
+
+.ammount{
+  text-align: center;
+}
+
+.subtotal{
+  padding: 24px 16px;
+}
+
+.subtotal th{
+  font-size: 32px;
+  font-size: 400px;
+  text-align: center;
+}
+
+.subtotal td{
+  font-size: 24px;
+  font-size: 400px;
+  text-align: center;
+}
+
+.footer th{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
